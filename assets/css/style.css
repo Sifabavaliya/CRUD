@@ -1,0 +1,67 @@
+.text-primary {
+  background: #9de1f7;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 128px;
+}
+
+.header .btn button {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.btn button svg {
+  fill: white;
+}
+
+body .wrapper table {
+  text-align: center;
+}
+
+form.search-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+form.search-wrapper .icon {
+  padding: 9px;
+  background: #b8b4b4c4;
+}
+
+form [type="search"] {
+  width: 100%;
+  padding: 4px;
+}
+
+svg {
+  width: 17px;
+  height: 17px;
+}
+
+.view-container {
+  max-width: 345px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid cadetblue;
+  background: floralwhite;
+  border-radius: 16px;
+  color: cadetblue;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.view.btn {
+  border: 2px solid cadetblue;
+  border-radius: 14px;
+  background: beige;
+}
