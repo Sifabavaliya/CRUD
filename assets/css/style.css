@@ -65,3 +65,37 @@ svg {
   border-radius: 14px;
   background: beige;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 8px;
+  color: black;
+  font-size: small;
+}
+
+.pagination a:hover {
+  background-color: black;
+  color: white;
+}
+
+.delete-modal {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(239 239 239);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.modal-heading {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}

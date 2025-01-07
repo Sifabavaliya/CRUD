@@ -20,16 +20,16 @@
         <form method="POST">
             <div class="mb-3">
                 <label for="uname" class="form-label">User Name</label>
-                <input type="text" class="form-control" id="uname" name="uname" require>
+                <input type="text" class="form-control" id="uname" name="uname" required>
               </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" require>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required>
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Phone No:</label>
-              <input type="number" class="form-control" id="phone" name="phone" require>
+              <input type="number" class="form-control" id="phone" name="phone" required>
             </div>
             <button type="reset" class="btn btn-primary">Reset</button>
               <button

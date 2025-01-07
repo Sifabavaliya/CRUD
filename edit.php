@@ -28,19 +28,19 @@
         <form method="POST">
             <div class="mb-3">
                 <label for="uname" class="form-label">User Name</label>
-                <input type="text" class="form-control" id="uname" name="uname" require value="<?php echo $row['uname']; ?>">
+                <input type="text" class="form-control" id="uname" name="uname" required value="<?php echo $row['uname']; ?>">
               </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" require value="<?php echo $row['email']; ?>">
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required value="<?php echo $row['email']; ?>">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Phone No:</label>
-              <input type="number" class="form-control" id="phone" name="phone" require value="<?php echo $row['phone']; ?>">
+              <input type="number" class="form-control" id="phone" name="phone" required value="<?php echo $row['phone']; ?>">
             </div>
             <div class="mb-3">
-              <input type="hidden" class="form-control" id="id" name="id" require value="<?php echo $row['id']; ?>">
+              <input type="hidden" class="form-control" id="id" name="id" value="<?php echo $row['id']; ?>">
             </div>
             <button type="reset" class="btn btn-primary">Reset</button>
               <button
